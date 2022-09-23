@@ -1,11 +1,8 @@
-curso="Curso de Python"
+cidade="Belo Horizonte"
+dia=15
+mes="Dezembro"
+ano=2019
+data="{}, {} de {} de {}"
 
-#print(curso[9:15])
-#print(curso.strip())
-#print(curso.lower().strip())
-#print(curso.upper())
-#print(curso.replace("Python","C#"))
-#a=curso.split(" ")
-#print(a[2])
-#print(curso.upper().strip()); 
-#print("tamanho: "+str(len(curso)))
+#res=palavra.upper() in texto.upper()
+print(data.format(cidade,dia,mes,ano))
